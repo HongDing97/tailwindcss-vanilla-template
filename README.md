@@ -1,5 +1,7 @@
 # Webpack 构建原生 Tailwindcss
 
+![rLMsqQ](https://raw.githubusercontent.com/HongDing97/imgs/main/uPic/rLMsqQ.png)
+
 ## ⚙️ Get Start
 
 ```bash
@@ -18,4 +20,3 @@ yarn dev
 # build
 yarn build
 ```
-
