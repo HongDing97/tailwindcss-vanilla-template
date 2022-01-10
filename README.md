@@ -15,7 +15,8 @@ yarn install
 
 ```bash
 # dev
-yarn dev
+yarn start
+yarn starts # https dev server
 
 # build
 yarn build
