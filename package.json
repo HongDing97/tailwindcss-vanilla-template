@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "webpack server --config ./webpack.conf/webpack.dev.js",
+    "starts": "webpack server --https --config ./webpack.conf/webpack.dev.js",
     "build": "webpack --config ./webpack.conf/webpack.prod.js"
   }
 }

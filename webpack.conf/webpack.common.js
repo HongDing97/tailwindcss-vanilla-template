@@ -37,5 +37,12 @@ module.exports = {
             template: './public/index.html',
             favicon: './public/favicon.ico',
         })
-    ]
+    ],
+    optimization: {
+        runtimeChunk: 'single',
+        splitChunks: {
+            chunks: 'all'
+        },
+        usedExports: true
+    }
 }
