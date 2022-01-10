@@ -1,2 +1,4 @@
 import './index.css'
-import './app/index.js'
+import App from './app'
+
+document.getElementById('app').innerHTML = App()
