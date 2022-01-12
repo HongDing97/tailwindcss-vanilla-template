@@ -1,6 +1,5 @@
 import app from './index.html'
 
-export default function render() {
-    console.log('Tailwind Vanilla Template')
-    return app
-}
+document.getElementById('app').innerHTML = app
+
+console.log('Tailwind Vanilla Template')
